@@ -11,7 +11,7 @@ sudo apt install libmysqlcppconn-dev
  wget https://dev.mysql.com/get/Downloads/Connector-C++/mysql-connector-c++-9.0.0-linux-glibc2.28-x86-64bit.tar.gz
 
 # Extract the Tarball:
-tar -xvzf mysql-connector-c++-9.0.0-linux-glibc2.28-x86-64bit.tar.gz
+tar -xvzf mysql-connector-c++-9.0.0-linux-glibc2.28-x86-64bit.tar.gz \
 cd mysql-connector-c++-9.0.0-linux-glibc2.28-x86-64
 
 # Build and Install:
